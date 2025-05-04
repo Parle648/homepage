@@ -31,7 +31,7 @@ body {
 .fv {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 50px;
 }
 
 .resume {
@@ -191,6 +191,10 @@ body {
   text-decoration-line: underline;
   text-align: left;
   margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .experiences__company-project {
@@ -217,7 +221,7 @@ body {
 }
 
 .additional-info {
-  flex: 1 1 40%;
+  flex: 1 1 60%;
 }
 
 .additional-info__education {
@@ -245,6 +249,10 @@ body {
 
 .additional-info__education-university-name {
   color: var(--secondary-text-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 15px;
 }
 
 .additional-info__languages {
@@ -259,4 +267,7 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
